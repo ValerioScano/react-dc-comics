@@ -1,0 +1,33 @@
+footer {
+    background-image: url(/img/footer-bg.jpg);
+    max-height: 400px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    color: grey;
+}
+
+h5 {
+    color: white;
+}
+
+.bigLogo {
+    transform: rotate(-30deg);
+    width: 400px;
+    opacity: 0.3;
+}
+
+.secondSection {
+    background-color: rgb(68, 67, 67);
+    min-height: 100px;
+}
+
+.lastFooter {
+    padding: 20px;
+}
