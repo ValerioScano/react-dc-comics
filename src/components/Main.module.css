@@ -1,0 +1,23 @@
+.contentPlaceholder {
+    background-color: black;
+    color: white;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.actionSection {
+    background-color: rgb(35, 109, 228);
+    padding: 2rem 0;
+}
+
+div ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li img {
+    max-height: 4rem;
+}
