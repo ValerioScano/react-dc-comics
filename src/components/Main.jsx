@@ -1,14 +1,28 @@
 import style from "./Main.module.css"
+import comics from "../dc-comics-2/comics.js"
 
 function Main() {
     return (
         <>
             <main>
                 <section className={style.contentPlaceholder}>
-                    <div>
-                        <h3>--&gt;Content goes here &lt;--</h3>
+                    <div className="container d-flex flex-wrap gap-2 py-3">
+                        {
+                            comics.map(comicsBook => {
+                                return <>
+                                    <div className="card col-2">
+                                        <img src={comicsBook.thumb} className="card-img-top" alt="..." />
+                                        <div className="card-body">
+                                            <p className="card-text">{comicsBook.title}</p>
+                                        </div>
+                                    </div>
+                                </>
+
+                            })
+                        }
                     </div>
                 </section>
+
                 <section className={style.actionSection}>
                     <div>
                         <ul className="d-flex justify-content-around">

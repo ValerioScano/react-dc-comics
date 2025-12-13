@@ -1,3 +1,7 @@
 .logoSmall {
     height: 5rem;
 }
+
+.highlight {
+    color: blue !important;
+}
