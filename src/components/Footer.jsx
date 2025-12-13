@@ -66,11 +66,11 @@ function Footer() {
 
                 <div className={style.lastFooter}>
                     FOLLOW US
-                    <img src="img/footer-facebook.png" alt="fb logo" />
-                    <img src="img/footer-periscope.png" alt="ps logo" />
-                    <img src="img/footer-pinterest.png" alt="pinterest logo" />
-                    <img src="img/footer-twitter.png" alt="twitter logo" />
-                    <img src="img/footer-youtube.png" alt="yt logo" />
+                    <img className={style.social} src="img/footer-facebook.png" alt="fb logo" />
+                    <img className={style.social} src="img/footer-periscope.png" alt="ps logo" />
+                    <img className={style.social} src="img/footer-pinterest.png" alt="pinterest logo" />
+                    <img className={style.social} src="img/footer-twitter.png" alt="twitter logo" />
+                    <img className={style.social} src="img/footer-youtube.png" alt="yt logo" />
                 </div>
             </section>
         </footer>
